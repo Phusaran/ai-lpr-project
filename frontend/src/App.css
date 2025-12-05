@@ -1,0 +1,24 @@
+body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.header { text-align: center; margin-bottom: 20px; color: #333; }
+.content { display: flex; gap: 20px; height: 80vh; }
+
+.video-section { flex: 2; background: #000; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; }
+.video-container { flex-grow: 1; display: flex; align-items: center; justify-content: center; background: #1a1a1a; }
+.video-feed { max-width: 100%; max-height: 100%; object-fit: contain; }
+.status-bar { background: #222; color: #fff; padding: 10px; font-size: 0.9rem; display: flex; align-items: center; }
+.dot { height: 10px; width: 10px; background-color: #0f0; border-radius: 50%; display: inline-block; margin-right: 10px; box-shadow: 0 0 5px currentColor; }
+
+.log-section { flex: 1; background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow-y: auto; }
+.log-list table { width: 100%; border-collapse: collapse; }
+.log-list th { text-align: left; padding: 10px; border-bottom: 2px solid #eee; color: #666; }
+.log-list td { padding: 12px 10px; border-bottom: 1px solid #eee; font-size: 1.1rem; font-weight: bold; color: #333; }
+.new-log { background-color: #e6fffa; animation: flash 1s; }
+
+.controls { display: flex; gap: 10px; justify-content: center; margin-top: 10px; }
+.btn { padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; transition: 0.3s; color: white; }
+.btn-upload { background-color: #3182ce; } .btn-upload:hover { background-color: #2b6cb0; }
+.btn-pause { background-color: #dd6b20; } .btn-pause:hover { background-color: #c05621; }
+.btn-play { background-color: #38a169; } .btn-play:hover { background-color: #2f855a; }
+
+@keyframes flash { 0% { background-color: #b2f5ea; } 100% { background-color: #e6fffa; } }

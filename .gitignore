@@ -1,0 +1,22 @@
+# Python
+backend/venv/
+backend/__pycache__/
+*.py[cod]
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# Large AI Models (Github รับไฟล์ใหญ่เกิน 100MB ไม่ได้)
+*.pt
+*.onnx
+backend/models/*.pt
+
+# Temp Videos
+*.mp4
+*.mov
+*.avi
+backend/temp_video.*
+
+# Logs & System
+.DS_Store
+plate_log.csv
