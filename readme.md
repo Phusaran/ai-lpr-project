@@ -42,6 +42,7 @@ lpr-web-app/
 Bash
 
 git clone (https://github.com/Phusaran/ai-lpr-project)
+
 cd lpr-web-app
 
 2. ติดตั้งฝั่ง Backend (Python)
