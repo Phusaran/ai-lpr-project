@@ -35,6 +35,7 @@ Bash
 
 git clone (https://github.com/Phusaran/ai-lpr-project)
 cd lpr-web-app
+
 2. ติดตั้งฝั่ง Backend (Python)
 เข้าไปที่โฟลเดอร์ backend และตั้งค่าสภาพแวดล้อมจำลอง (Virtual Environment)
 
