@@ -32,8 +32,10 @@ lpr-web-app/
 │   └── ...
 
 └── frontend/          # ส่วนหน้าเว็บ (React)
-    ├── src/           # โค้ด React Components
-    └── ...
+
+│    ├── src/           # โค้ด React Components
+    
+│    └── ...
     
 ⚙️ การติดตั้ง (Installation)
 1. ดาวน์โหลดโปรเจค (Clone)
