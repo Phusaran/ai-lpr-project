@@ -22,13 +22,21 @@
 ## 📂 โครงสร้างโปรเจค (Project Structure)
 
 lpr-web-app/
+
 ├── backend/           # ส่วนประมวลผล AI และ API (Python Flask)
+
 │   ├── models/        # ที่เก็บไฟล์โมเดล YOLOv12 (.pt)
+
 │   ├── app.py         # ไฟล์หลักสำหรับรัน Server
+
 │   └── ...
+
 └── frontend/          # ส่วนหน้าเว็บ (React)
+
     ├── src/           # โค้ด React Components
+    
     └── ...
+    
 ⚙️ การติดตั้ง (Installation)
 1. ดาวน์โหลดโปรเจค (Clone)
 Bash
